@@ -18,13 +18,13 @@ int main() {
 
     cout << "Введите текущую дату\n";
     cout << "День ";
-    cin >> dd;
+    cin >> cd;
 
     cout << "Месяц";
-    cin >> dm;
+    cin >> cm;
 
     cout << "Год ";
-    cin >> dy;
+    cin >> cy;
 
     if (dm > cm) {
         yo = cy - dy;
